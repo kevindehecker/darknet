@@ -1,6 +1,6 @@
 classes= 21
-train  = /home/houjebek/code/darknet/train_outback.txt
-valid  = /home/houjebek/code/darknet/2007_test.txt
+train  = /data/kevin/darknet/train_outback.txt
+valid  = /data/kevin/darknet/2007_test.txt
 names = data/voc_outback.names
 backup = backup
 
