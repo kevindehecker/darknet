@@ -229,6 +229,7 @@ void validate_yolo_recall(char *cfg, char *weights)
         find_replace(path, "images", "labels", labelpath);
         find_replace(labelpath, "JPEGImages", "labels", labelpath);
         find_replace(labelpath, ".jpg", ".txt", labelpath);
+        find_replace(labelpath, ".png", ".txt", labelpath);
         find_replace(labelpath, ".JPEG", ".txt", labelpath);
         find_replace(labelpath, ".png", ".txt", labelpath);
         int num_labels = 0;
