@@ -1,6 +1,6 @@
 classes= 20
-train  = /home/houjebek/code/darknet/train.txt
-valid  = /home/houjebek/code/darknet/2007_test.txt
+train  = /data/kevin/darknet/train.txt
+valid  = /data/kevin/darknet/2007_test.txt
 names = data/voc.names
 backup = backup
 

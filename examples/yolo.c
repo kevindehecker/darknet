@@ -230,7 +230,7 @@ void validate_yolo_recall(char *cfg, char *weights)
         find_replace(labelpath, "JPEGImages", "labels", labelpath);
         find_replace(labelpath, ".jpg", ".txt", labelpath);
         find_replace(labelpath, ".JPEG", ".txt", labelpath);
-
+        find_replace(labelpath, ".png", ".txt", labelpath);
         int num_labels = 0;
         box_label *truth = read_boxes(labelpath, &num_labels);
         for(k = 0; k < side*side*l.n; ++k){
